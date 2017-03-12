@@ -1,1 +1,46 @@
-*{margin: 0;padding: 0}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/07/2016, 07:53:40
+    Author     : Natan
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    margin: 0;
+    background: #f3eef0;
+}
+.img-logo{
+    position: relative;
+    margin: 20px;
+    margin-top: 2px;
+    margin-bottom: -5px;
+    width: 120px;
+}
+
+.roda-pe{
+    float: bottom;
+    margin-top: 600px;
+    margin-left: 535px;
+    
+}
+
+.pe{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.borda-top{
+    border: 1px solid #c61c22;
+}
+.top{
+    margin-bottom: -100px;
+}
+.borda-bottom{
+    margin-top: 580px ;
+    margin-bottom: -595px;
+    border: 1px solid #c61c22;
+}
+
+
