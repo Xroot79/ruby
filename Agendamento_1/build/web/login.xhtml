@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Agendamento | Login</title>
+        <link rel="stylesheet" href="estilos/login.css"/>
+        <link rel="shortcut icon" href="imagens/safira-logo.png" type="image/x-icon"/>
+    </h:head>
+    <h:body>
+        <div id="centro">
+            <h:form id="cont">
+                <p:growl id="msg"/>
+                <div class="img">
+                    <h:graphicImage class="img-logo" url="imagens/logo 2.0.png"/>
+                </div>
+                <div class="campos">
+                    <div class="camp-icon">
+                        <h:graphicImage class="icon-user" url="imagens/usuario-login-icon.png"/>
+                        <p:inputText requiredMessage="Informe o nome de usuário" type="text" required="true" styleClass="campo" value="#{login.login_usuario}" placeholder="Usuário"/>
+                    </div>
+                    <div class="camp-icon">
+                        <h:graphicImage class="icon-user" url="imagens/senha-login-icon.png"/>
+                        <p:inputText type="password" requiredMessage="Informe a senha" required="true" styleClass="campo" value="#{login.senha_usuario}" placeholder="Senha"/>
+                    </div>
+                    <p:commandButton action="#{login.logar(login.login_usuario,login.senha_usuario)}" update=":cont:msg" value="ENTRAR"  styleClass="button" />
+                    <div class="links">
+                    <p:link styleClass="link" >Esqueceu a senha?</p:link>
+                    <p:outputLabel styleClass="out"> | </p:outputLabel>
+                    <p:link styleClass="link2" >Solicitar Cadastro</p:link>
+                    </div>
+                </div>
+            </h:form>
+        </div>        
+        <div class="roda-pe">
+            <p:outputLabel styleClass="pe"> Produzido por Safira Softhouse - Todos os Direitos Reservados </p:outputLabel>
+        </div>
+    </h:body>
+</html>
