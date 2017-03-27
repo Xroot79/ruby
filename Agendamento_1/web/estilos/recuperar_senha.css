@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/03/2017, 01:57:44
+    Author     : Wesley
+*/
+body{
+    margin: 0;
+    background-color: #f3eef0;
+}
+
+.img-logo{
+    position: relative;
+    max-width: 180px;
+    max-height: 180px;
+    left: 50%;
+    margin-left: -90px;
+    margin-top: 20px;
+}
+
+.digite_email{
+    position: absolute;
+    width: 400px;
+    text-align: center;
+}
+
+.input_email{
+    position: relative;
+    text-align: center; 
+    width: 330px;
+    left: 50%;
+    margin-left: -170px;
+}
+
+.botao_enviar{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    left: 50%;
+    margin-left: -75px;
+
+    background:    #a33032;
+    background:    -webkit-linear-gradient(#a33032, #ca3236);
+    background:    linear-gradient(#a33032, #ca3236);
+    border:        1px solid #fff;
+    border-radius: 5px;
+    color:         #fff;
+    display:       inline-block;
+    padding:       6px 36px;
+    font:          normal 400 23px/1 "Calibri", sans-serif;
+    text-align:    center;
+    text-shadow:   none;
+}
+.botao_enviar:hover{
+    box-shadow: 1px 1px 0 0 #600;
+    border: none;
+    cursor:  pointer; 
+    -webkit-transition: 0.1s ease-out;
+}
+
+#conteudo{
+    position: absolute;
+    background-color: #f7f3f4;
+    width: 400px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -225px;
+
+    border-radius: 7px;
+}
+#conteudo:hover{
+    background-color: #f8f6f7;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px 5px #f3eef0;
+    -webkit-transition: 0.3s ease-out;
+}
+.roda-pe{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.pe{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}

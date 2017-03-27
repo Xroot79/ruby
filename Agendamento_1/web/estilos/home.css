@@ -11,36 +11,52 @@ and open the template in the editor.
 body{
     margin: 0;
     background: #f3eef0;
+    font-size: 16px;
 }
 .img-logo{
     position: relative;
-    margin: 20px;
-    margin-top: 2px;
-    margin-bottom: -5px;
-    width: 120px;
+    margin: 20px ;
+    margin-top: 0.125em;
+    margin-bottom: -0.3125em;
+    width: 7.5em;
+}
+
+.borda-top{
+    border: 0.0625em solid #c61c22;
+}
+.top{
+    margin-bottom: 5%;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    margin-left: 0%
+}
+.img {
+   max-width: 100%;
+}
+.item{
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    float: left;
 }
 
 .roda-pe{
     float: bottom;
-    margin-top: 600px;
-    margin-left: 535px;
-    
+    margin-top: 51%;
+    margin-left: 35%;
 }
-
 .pe{
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
-.borda-top{
-    border: 1px solid #c61c22;
-}
-.top{
-    margin-bottom: -100px;
-}
 .borda-bottom{
-    margin-top: 580px ;
-    margin-bottom: -595px;
+    margin-top: 36%;
+    margin-bottom: -50%;
     border: 1px solid #c61c22;
 }
-
-

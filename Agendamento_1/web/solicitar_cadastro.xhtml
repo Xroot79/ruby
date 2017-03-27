@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Agendamento | Soliciar cadastro</title>
+        <link rel="stylesheet" href="estilos/solicitar_cadastro.css"/>
+        <link rel="shortcut icon" href="imagens/logo 2.0.png" type="image/x-icon"/>
+    </h:head>
+    <h:body>
+        
+        <div id="centro">
+            <h:form id="conteudo">
+                    <h:graphicImage class="img-logo" url="imagens/logo 2.0.png"/>
+                    <br></br>
+                    <p:inputText class="input" placeholder="NOME"/>
+                    <br></br><br></br>
+                    <p:inputText class="input" placeholder="EMAIL"/>
+                    <br></br><br></br>
+                    <p:inputMask id="phone" class="input" value="#{maskView.phone}" mask="(99) 99999-9999" placeholder="TELEFONE"/>
+                    <br></br><br></br>
+                    <div id="div_lateral_input">
+                        <p:inputText placeholder="CIDADE" style="width: 260px; position: relative; text-align: center;"/>
+                        <p:inputText placeholder="UF" maxlength="2" style="max-width: 50px; position: relative; float: right; text-align: center;"/>
+                    </div>                
+                    <br></br>
+                    <h:button class="botao_enviar" value="CADASTRAR"/>
+            </h:form>
+        </div>
+        <div class="roda-pe">
+            <p:outputLabel styleClass="pe"> Produzido por Safira Softhouse - Todos os Direitos Reservados </p:outputLabel>
+        </div>
+        
+    </h:body>
+</html>

@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/07/2016, 07:53:40
+    Author     : Natan
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{margin: 0;padding: 0;}
+
+ body{
+     margin: 0;background: #f3eef0;}
+
+.img-logo{position: relative; margin: 20px;margin-top: 2px;margin-bottom: -5px;width: 50px;}
+
+.roda-pe{    float: bottom; margin-top: 600px; margin-left: 90px;  }
+
+.pe{font-size: 5px; font-family: 'Roboto', sans-serif;}
+
+.borda-top{border: 1px solid #c61c22; }
+
+.top{margin-bottom: -100px;}
+
+.borda-bottom{ margin-top: 480px ; margin-bottom: -595px; border: 1px solid #c61c22;}
+
+@media screen and (min-width: 480px){
+    .img-logo{width: 90px;}
+    .roda-pe{    float: bottom; margin-top: 600px; margin-left: 110px;  }
+    .pe{font-size: 9px;}
+    .borda-bottom{ margin-top: 620px ; }
+}
+@media screen and (min-width: 640px){
+    .img-logo{width: 100px;}
+    .roda-pe{ margin-left: 200px;  }
+    .pe{font-size: 9px;}
+ }
+ @media screen and (min-width: 768px){
+    .img-logo{width: 100px;}
+    .roda-pe{ margin-left: 280px;  }    
+ }@media screen and (min-width: 1024px){
+    .img-logo{width: 110px;}
+    .roda-pe{ margin-left: 350px;  }
+    .borda-bottom{ margin-top: 610px ; }
+    .pe{font-size: 12px;}
+ }
+ @media screen and (min-width: 1280px){
+    .img-logo{width: 110px;}
+    .roda-pe{ margin-left: 500px;  }
+    .borda-bottom{ margin-top: 620px ; }
+    .pe{font-size: 12px;}
+ }
+ @media screen and (min-width: 1366px){
+    .img-logo{width: 110px;}
+    .roda-pe{ margin-left: 530px;  }
+    .borda-bottom{ margin-top: 630px ; }
+    .pe{font-size: 12px;}
+ }
+
+
